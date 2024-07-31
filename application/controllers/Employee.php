@@ -99,4 +99,62 @@ class Employee extends CI_Controller{
             echo "Unable to Delete!";
         }
     }
+
+    public function _get_validated_data()
+    {
+        $this->load->library('form_validation');
+
+        $this->form_validation->set_rules('emp_name', 'Employee Name', 'required');
+        $this->form_validation->set_rules('email', 'Email', 'required|callback_valid_email');
+        $this->form_validation->set_rules('phone', 'Phone', 'required|callback_valid_phone_number');
+        $this->form_validation->set_rules('salary', 'Salary', 'required');
+        $this->form_validation->set_rules('address', 'Address', 'required');
+
+        if ($this->form_validation->run() === FALSE) {
+            $this->session->set_flashdata('error', validation_errors());
+            return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * Check valid phone number ...
+     * @return bool
+     */
+    public function check_valid_phone_number()
+    {
+        $this->load->library('form_validation');
+
+        $this->form_validation->set_rules('phone', 'Phone', 'required|regex_match[/^[0-9]{11}$/]');
+
+        $this->form_validation->set_message('regex_match', 'Invalid phone number format');
+
+        if ($this->form_validation->run() === FALSE) {
+            $this->session->set_flashdata('error', validation_errors());
+            return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * Set custom validation message in callback ...
+     * @return bool
+     */
+    public function check_valid_email()
+    {
+        $this->load->library('form_validation');
+
+        $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
+
+        $this->form_validation->set_message('callback_valid_email', 'Invalid email format');
+
+        if ($this->form_validation->run() === FALSE) {
+            $this->session->set_flashdata('error', validation_errors());
+            return false;
+        }
+
+        return true;
+    }
 }

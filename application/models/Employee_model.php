@@ -20,21 +20,45 @@ class Employee_model extends CI_Model
         return $query->result();
     }
 
-    public function findBy($id) {
+    /**
+     * To get employee details ...
+     * @param $employee_id
+     * @return mixed
+     * @author MsM Robin
+     * @date 2024-08-01
+     */
+    public function getEmployeeDetails($employee_id = null)
+    {
+        $query = $this->db->query('SELECT * FROM employees')
+            ->join('departments', 'employees.department_id = departments.ID')
+            ->join('designations', 'employees.designation_id = designations.ID')
+            ->join('cities', 'employees.city_id = cities.ID');
+
+        if ($employee_id) {
+            return $query->where('employees.ID', $employee_id)->order_by('employees.ID', 'DESC')->get()->row();
+        }
+        else {
+            return $query->order_by('employees.ID', 'DESC')->get()->result();
+        }
+    }
+
+    public function findBy($id)
+    {
         $query = $this->db->get_where('employees', ['ID' => $id]);
         return $query->row();
     }
 
-    public function updateEmployee($id,$data){
+    public function updateEmployee($id, $data)
+    {
         $this->db->where('ID', $id);
         $this->db->update('employees', $data);
 
-        if($this->db->affected_rows() > 0){
+        if ($this->db->affected_rows() > 0) {
             return true;
-        }else{
+        } else {
             return false;
         }
-        
+
     }
 
     public function deleteEmployee($id)
