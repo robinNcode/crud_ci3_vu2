@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2adc4670-4ba5-4d55-aa9a-96e3c48e1dc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="2adc4670-4ba5-4d55-aa9a-96e3c48e1dc5" name="Default Changelist" comment="Research to update CI3 to CI4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Employee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/Employee_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Employee_model.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +26,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "robinNcode"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;robinNcode&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/robinNcode/crud_ci3_vu2.git",
-    "accountId": "210695b1-0b05-48e6-9bf3-53a64b7a6a77"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/robinNcode/crud_ci3_vu2.git&quot;,
+    &quot;accountId&quot;: &quot;210695b1-0b05-48e6-9bf3-53a64b7a6a77&quot;
   }
-}]]></component>
+}</component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="D:\xampp\php\php.exe">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
@@ -74,9 +72,9 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
     </include_path>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2Z4A4TlTrSTsmancl69j34FGx2z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -84,20 +82,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/xampp/htdocs/php_works/crud_ci3_vu2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/xampp/htdocs/php_works/crud_ci3_vu2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/application/views/employee/vue_ui" />
@@ -131,7 +129,8 @@
       <workItem from="1701747426565" duration="911000" />
       <workItem from="1701753570857" duration="10526000" />
       <workItem from="1701836936700" duration="16472000" />
-      <workItem from="1722454593980" duration="1490000" />
+      <workItem from="1722454593980" duration="3354000" />
+      <workItem from="1722974567683" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="All done">
       <created>1701860773305</created>
@@ -140,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701860773305</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Research to update CI3 to CI4">
+      <option name="closed" value="true" />
+      <created>1722456977545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722456977545</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,38 +155,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All done" />
-    <option name="LAST_COMMIT_MESSAGE" value="All done" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="311" y="58" width="800" height="677" key="#Composer" timestamp="1701670825175">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="311" y="58" width="800" height="677" key="#Composer/67.27.1299.741@67.27.1299.741" timestamp="1701670825175" />
-    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1701671174270">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1701671174270" />
-    <state x="248" y="27" width="860" height="692" key="CommitChangelistDialog2" timestamp="1701860773151">
-      <screen x="0" y="27" width="1366" height="692" />
-    </state>
-    <state x="248" y="27" width="860" height="692" key="CommitChangelistDialog2/0.27.1366.692@0.27.1366.692" timestamp="1701860773151" />
-    <state x="468" y="302" width="420" height="149" key="NewPhpFileDialog" timestamp="1701855772028">
-      <screen x="0" y="27" width="1366" height="692" />
-    </state>
-    <state x="468" y="302" width="420" height="149" key="NewPhpFileDialog/0.27.1366.692@0.27.1366.692" timestamp="1701855772028" />
-    <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1701755800130" />
-    <state x="205" y="31" key="SettingsEditor" timestamp="1701747412683">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1701747412683" />
-    <state x="321" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1701836937203">
-      <screen x="0" y="27" width="1366" height="692" />
-    </state>
-    <state x="321" y="212" key="com.intellij.ide.util.TipDialog/0.27.1366.692@0.27.1366.692" timestamp="1701836937203" />
-    <state x="372" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1701753571069" />
-    <state x="206" y="27" width="944" height="692" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1701773202453">
-      <screen x="0" y="27" width="1366" height="692" />
-    </state>
-    <state x="206" y="27" width="944" height="692" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.692@0.27.1366.692" timestamp="1701773202453" />
+    <MESSAGE value="Research to update CI3 to CI4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Research to update CI3 to CI4" />
   </component>
 </project>
